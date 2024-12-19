@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Subjects"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/purpleDark" />
+
+        <CheckBox
+            android:id="@+id/subject1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mathematics (3 Credits)" />
+
+        <CheckBox
+            android:id="@+id/subject2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Physics (3 Credits)" />
+
+        <CheckBox
+            android:id="@+id/subject3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chemistry (3 Credits)" />
+
+        <CheckBox
+            android:id="@+id/subject4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Biology (3 Credits)" />
+
+        <CheckBox
+            android:id="@+id/subject5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="English (3 Credits)" />
+
+        <CheckBox
+            android:id="@+id/subject6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="History (3 Credits)" />
+
+        <CheckBox
+            android:id="@+id/subject7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Geography (3 Credits)" />
+
+        <CheckBox
+            android:id="@+id/subject8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Economic (3 Credits)" />
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/purple"
+            android:textColor="@color/blueDark" />
+    </LinearLayout>
+</ScrollView>

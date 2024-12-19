@@ -1,0 +1,36 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@color/pink">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enrollment Menu Student"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/blueDark" />
+
+    <Button
+        android:id="@+id/selectSubjectButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="Select Subjects"
+        android:backgroundTint="@color/blue"
+        android:textColor="@color/purpleDark" />
+
+    <Button
+        android:id="@+id/viewSummaryButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/selectSubjectButton"
+        android:layout_marginTop="12dp"
+        android:text="View Enrollment Summary"
+        android:backgroundTint="@color/purple"
+        android:textColor="@color/blueDark" />
+</RelativeLayout>
